@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>SimpleWeatherApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-data">
+        <img src="./Images/logo.png" alt="" />
+        <span>Weather App</span>
+        <div class="weather">
+          <h1 class="weather-description"></h1>
+        </div>
+        <div class="search">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search for a city..."
+          />
+          <div id="searchBtn">Search</div>
+        </div>
+        <div class="city-and-temp">
+          <h1 class="city"></h1>
+          <h1 class="temp"></h1>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
